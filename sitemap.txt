@@ -1,2 +1,6 @@
-http://example.com/2022/07/10/hello-world/
-http://example.com/
+https://sueipl.github.io/photo/index.html
+https://sueipl.github.io/link/index.html
+https://sueipl.github.io/categories/index.html
+https://sueipl.github.io/tags/index.html
+https://sueipl.github.io/2022/07/10/hello-world/
+https://sueipl.github.io/
