@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://sueipl.github.io/2022/07/14/Telescope/</loc>
+    
+    <lastmod>2022-07-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sueipl.github.io/shuoshuo/index.html</loc>
     
     <lastmod>2022-07-14</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>https://sueipl.github.io/schedule/index.html</loc>
-    
-    <lastmod>2022-07-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://sueipl.github.io/2022/07/14/Telescope/</loc>
     
     <lastmod>2022-07-14</lastmod>
     
@@ -99,7 +99,7 @@
   </url>
   
   <url>
-    <loc>https://sueipl.github.io/tags/%E9%9F%B3%E4%B9%90-%E9%99%88%E5%A5%95%E8%BF%85/</loc>
+    <loc>https://sueipl.github.io/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2022-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
