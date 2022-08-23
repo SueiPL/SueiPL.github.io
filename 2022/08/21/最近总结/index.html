@@ -1,0 +1,159 @@
+<!DOCTYPE html><html lang="default" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>最近总结 | Lei's Blog</title><meta name="keywords" content="随笔"><meta name="author" content="Lei"><meta name="copyright" content="Lei"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="​		最近半个月没有更新，说一下我最近都干了些什么吧。总的来说，摸鱼占据了我大部分的时间，但过程中我也做了很多事情：写了些小应用，搞了搞数据库，下面展开说说。 ​		首先是AndLua，用Lua语言编写安卓程序的应用，之前用过，不过也放弃很久了，最近闲得无聊又重新拿出来用了用，写了两个小应用，开发还算成功，但奈何外部环境复杂，导致应用无法正常运行。 ​		第一款是一个记录随笔的软件，因为我很喜欢听">
+<meta property="og:type" content="article">
+<meta property="og:title" content="最近总结">
+<meta property="og:url" content="https://sueipl.github.io/2022/08/21/%E6%9C%80%E8%BF%91%E6%80%BB%E7%BB%93/index.html">
+<meta property="og:site_name" content="Lei&#39;s Blog">
+<meta property="og:description" content="​		最近半个月没有更新，说一下我最近都干了些什么吧。总的来说，摸鱼占据了我大部分的时间，但过程中我也做了很多事情：写了些小应用，搞了搞数据库，下面展开说说。 ​		首先是AndLua，用Lua语言编写安卓程序的应用，之前用过，不过也放弃很久了，最近闲得无聊又重新拿出来用了用，写了两个小应用，开发还算成功，但奈何外部环境复杂，导致应用无法正常运行。 ​		第一款是一个记录随笔的软件，因为我很喜欢听">
+<meta property="og:locale">
+<meta property="og:image" content="https://s1.ax1x.com/2022/07/12/j2B2XF.jpg">
+<meta property="article:published_time" content="2022-08-21T13:26:09.000Z">
+<meta property="article:modified_time" content="2022-08-21T13:52:57.492Z">
+<meta property="article:author" content="Lei">
+<meta property="article:tag" content="随笔">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s1.ax1x.com/2022/07/12/j2B2XF.jpg"><link rel="shortcut icon" href="/img/favicon.jpg"><link rel="canonical" href="https://sueipl.github.io/2022/08/21/%E6%9C%80%E8%BF%91%E6%80%BB%E7%BB%93/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?https://tongji.baidu.com/web/welcome/login";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":500,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'mediumZoom',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '最近总结',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-08-21 21:52:57'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Lei's Blog" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="http://q1.qlogo.cn/g?b=qq&amp;nk=2900364684&amp;s=640" onerror="onerror=null;src='/img/init.jpg'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/schedule/"><i class="fa-fw fas fa-timeline"></i><span> 时刻表</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-music"></i><span> 音乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/playlist/"><i class="fa-fw fas fa-brands fa-spotify"></i><span> 歌手</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/shuoshuo/"><i class="fa-fw fas fa-eye-dropper"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/time/"><span> 时钟</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s1.ax1x.com/2022/07/12/j2B2XF.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Lei's Blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/schedule/"><i class="fa-fw fas fa-timeline"></i><span> 时刻表</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-music"></i><span> 音乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/playlist/"><i class="fa-fw fas fa-brands fa-spotify"></i><span> 歌手</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/shuoshuo/"><i class="fa-fw fas fa-eye-dropper"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/time/"><span> 时钟</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">最近总结</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-08-21T13:26:09.000Z" title="发表于 2022-08-21 21:26:09">2022-08-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-08-21T13:52:57.492Z" title="更新于 2022-08-21 21:52:57">2022-08-21</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="最近总结"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>​		最近半个月没有更新，说一下我最近都干了些什么吧。总的来说，摸鱼占据了我大部分的时间，但过程中我也做了很多事情：写了些小应用，搞了搞数据库，下面展开说说。</p>
+<p>​		首先是AndLua，用Lua语言编写安卓程序的应用，之前用过，不过也放弃很久了，最近闲得无聊又重新拿出来用了用，写了两个小应用，开发还算成功，但奈何外部环境复杂，导致应用无法正常运行。</p>
+<p>​		第一款是一个记录随笔的软件，因为我很喜欢听粤语歌，里面有很多歌词写的很好，所以像记录下来，编写了这个APP，界面简洁，动画简单，写了大约三天就完成了。应用后端采用的是Bmob后端云，之前就听说过，现在终于用起来了，虽然开发版有限制，但足够实现这些功能。</p>
+<p>​		第二款是一个阅读APP，平时闲得无聊，又不想阅读长篇小说，所以想读一些比较短的文章，正好有一个网站，可以随机推送一篇文章，所以我准备用这个网站的文章作为我应用的文章。为了保持这些数据稳定，我专门用Python写了一个爬虫1秒请求一次网站，准备把这些文章全部爬出来，写了几个小时，最终爬了2000篇文章，因为后面的文章前面全都有了，所以那个网站也差不多就2000篇文章。我把这些文章全都放在了Bmob后端云，因为Bmob对开发版的API请求有数据大小限制，所以又搞了好一会儿才想出了APP合适的数据请求方法，万事俱备，之前编程，我正准备开始写程序，没想到这时候Bmob后端崩了，工信部不对Bmob后端进行解析了，导致Bmob后端API接口到写稿为止仍无法访问。但想法已经有了，想尽办法也要去实现，之前了解过T1后端云，因为要付费，所以没用过，也害怕他跑路，但这次没办法了，只能花费32块买了一个数据库，好处是他是永久的，没有时间限制，没有表数量限制，没有请求限制，但是这并不能掩盖他的弊端。之前没看过文档，不看不知道，一看吓一跳，这个数据库的请求数据层层加密，什么AES加密和MD5加密都用上了，这对于我们这些重应用而轻深入的编程者来说简直是个噩梦，我找了一下午怎么用Lua实现这些功能，最后还是没能成功实现。此外这个数据库不能加limit请求，导致不能请求特定条数数据，要么请求全部数据库，要么查询条件，这对于我这数据量比较大的数据库简直是噩梦！至此，数据库梦破裂，最终，我还是采用了本地存储的方式，把所有的文章下载到了本地，功能也差不多实现了。</p>
+<p>​		这几天，我又盯上了学校的教务系统，准备写一个方便查询成绩的软件，但教务系统的请求真是复杂，我试了很多方法，很难实现一次登录，一劳永逸，没办法，最终还是放弃吧！</p>
+<p>​		最近我搞了很多程序和数据库相关的东西，经历了很多的波折，也收获了很多的东西，但要开学了，也意味着没时间弄这些东西了，可能会在周末弄一弄，但不会耗费太多时间，要考研了！所以这些东西现放一放，先专攻考研，剩下的靠后站！</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://SueiPL.github.io">Lei</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://sueipl.github.io/2022/08/21/%E6%9C%80%E8%BF%91%E6%80%BB%E7%BB%93/">https://sueipl.github.io/2022/08/21/%E6%9C%80%E8%BF%91%E6%80%BB%E7%BB%93/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://SueiPL.github.io" target="_blank">Lei's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></div><div class="post_share"><div class="social-share" data-image="https://s1.ax1x.com/2022/07/12/j2B2XF.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/07/17/chaoxing/"><img class="next-cover" src="http://p.ananas.chaoxing.com/star3/240_130c/3a7c4e2929905646967168696f78ff01.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">chaoxing</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="http://q1.qlogo.cn/g?b=qq&amp;nk=2900364684&amp;s=640" onerror="this.onerror=null;this.src='/img/init.jpg'" alt="avatar"/></div><div class="author-info__name">Lei</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/sueipl"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2900364684&amp;site=qq&amp;menu=yes" target="_blank" title="QQ"><i class="fab fa-qq"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/08/21/%E6%9C%80%E8%BF%91%E6%80%BB%E7%BB%93/" title="最近总结"><img src="https://s1.ax1x.com/2022/07/12/j2B2XF.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="最近总结"/></a><div class="content"><a class="title" href="/2022/08/21/%E6%9C%80%E8%BF%91%E6%80%BB%E7%BB%93/" title="最近总结">最近总结</a><time datetime="2022-08-21T13:26:09.000Z" title="发表于 2022-08-21 21:26:09">2022-08-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/17/chaoxing/" title="chaoxing"><img src="http://p.ananas.chaoxing.com/star3/240_130c/3a7c4e2929905646967168696f78ff01.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="chaoxing"/></a><div class="content"><a class="title" href="/2022/07/17/chaoxing/" title="chaoxing">chaoxing</a><time datetime="2022-07-17T08:38:38.000Z" title="发表于 2022-07-17 16:38:38">2022-07-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/14/Telescope/" title="韦伯望远镜拍摄的首批全彩照片公布"><img src="https://s1.ax1x.com/2022/07/14/jf1JTf.md.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="韦伯望远镜拍摄的首批全彩照片公布"/></a><div class="content"><a class="title" href="/2022/07/14/Telescope/" title="韦伯望远镜拍摄的首批全彩照片公布">韦伯望远镜拍摄的首批全彩照片公布</a><time datetime="2022-07-14T07:52:50.000Z" title="发表于 2022-07-14 15:52:50">2022-07-14</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By Lei</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Welcome To My Blog!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
