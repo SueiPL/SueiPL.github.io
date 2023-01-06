@@ -6,7 +6,7 @@
   <link href="https://sueipl.github.io/atom.xml" rel="self"/>
   
   <link href="https://sueipl.github.io/"/>
-  <updated>2022-08-21T13:52:57.492Z</updated>
+  <updated>2023-01-06T08:43:07.535Z</updated>
   <id>https://sueipl.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MIM波导耦合缺陷谐振腔系统的传感特性研究</title>
+    <link href="https://sueipl.github.io/2023/01/06/%E8%AE%BA%E6%96%87/"/>
+    <id>https://sueipl.github.io/2023/01/06/%E8%AE%BA%E6%96%87/</id>
+    <published>2023-01-06T08:40:54.000Z</published>
+    <updated>2023-01-06T08:43:07.535Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="MIM波导耦合缺陷谐振腔系统的传感特性研究"><a href="#MIM波导耦合缺陷谐振腔系统的传感特性研究" class="headerlink" title="MIM波导耦合缺陷谐振腔系统的传感特性研究"></a>MIM波导耦合缺陷谐振腔系统的传感特性研究</h3><h4 id="表面等离子激元（SPPs）"><a href="#表面等离子激元（SPPs）" class="headerlink" title="表面等离子激元（SPPs）"></a>表面等离子激元（SPPs）</h4><p>​一种只能在介质-金属交界面传播的电磁波，是由金属的自由电子和入射光子相互干涉而形成的，可以打破衍射极限，在纳米尺度控制光。能激发SPPs的波导结构有很多，其中金属-介质-金属（MIM）波导具有十分优异的性质。</p><h4 id="Fano共振"><a href="#Fano共振" class="headerlink" title="Fano共振"></a>Fano共振</h4><p>​通常是由<u>连续宽带模式和离散窄带模式</u>相互作用而形成，其在透射谱上为一条尖锐且不对称的曲线。</p><p>​几何参数和周边环境的变化会极大的影响Fano共振的位置和形状。所以，Fano共振可以通过适当<u>调整几何参数</u>来调谐。</p><p><img src="https://c2.im5i.com/2023/01/06/YNO9S.png" alt="Fano"></p><h4 id="表面等离子激元的色散关系"><a href="#表面等离子激元的色散关系" class="headerlink" title="表面等离子激元的色散关系"></a>表面等离子激元的色散关系</h4><p>​根据麦克斯韦方程组进行推导计算，可以得到SPPs在单质介质与金属交界面处的色散关系。可以得到，TM模式可以激发SPPs，TE模式无法激发SPPs。在给定频率下，<u>光的波矢总是低于SPPs的波矢，所以光不能直接转化为SPPs</u>，但是，可以通过一定的方法调制光弥补这一相位不匹配，从而激发SPPs.</p><h4 id="表面等离子激元的激发方式"><a href="#表面等离子激元的激发方式" class="headerlink" title="表面等离子激元的激发方式"></a>表面等离子激元的激发方式</h4><h5 id="1、棱镜耦合"><a href="#1、棱镜耦合" class="headerlink" title="1、棱镜耦合"></a>1、棱镜耦合</h5><p>​棱镜耦合一般有两个几何结构：Kretschmann结构与Otto结构。</p><pre><code>     **Kretschmann结构**：一层金属膜附在棱镜的顶部，由于相位不匹配，入射光在金属-棱镜交界面处不能直接产生SPPs。同样的，入射光在金属-空气交界面处也不能直接产生SPPs。但是，当光波从棱镜射入，在金属-棱镜交界面处会发生反射。当入射角大于临界角时，此交界面上的反射成为衰减全反射（attenuated total reflection,ATR），而ATR中的倏逝波可以传播到棱镜。若金属薄膜的厚度小于倏逝场的衰减长度，则当相位匹配条件满足时，&lt;u&gt;倏逝波可以穿透金属层在金属-空气交界面处激发SPPs&lt;/u&gt;。</code></pre><p>​<strong>Otto结构</strong>：有一条空气狭缝位于金属和棱镜中间。类似的，在金属-空气交界面上无法直接激发SPPs。但是，当ATR出现在棱镜-空气界面时，若相位匹配条件达到，且空气狭缝的宽度小于倏逝场的衰减长度，则<u>倏逝波可以在空气-金属交界面处激发SPPs</u>。</p><p><img src="https://c2.im5i.com/2023/01/06/YShAm.png" alt="棱镜耦合"></p><h5 id="2、光栅耦合"><a href="#2、光栅耦合" class="headerlink" title="2、光栅耦合"></a>2、光栅耦合</h5><p>​其周围的介质为空气，当一定角度的光照射在光栅时，光在光栅上会发生衍射。衍射光的波矢会叠加到入射光的波矢，进而满足波失匹配条件，激发SPPs。</p><p><img src="https://c2.im5i.com/2023/01/06/YNpkD.png" alt="光栅耦合"></p><h4 id="MIM波导"><a href="#MIM波导" class="headerlink" title="MIM波导"></a>MIM波导</h4><p>​MIM波导能很好的限制SPPs，具有很小的欧姆损耗，且以极小的尺寸实现更长的SPPs传输距离。随着介质层高度变大，SPPs的传输长度增加，但是，若介质层高度过大，则两路SPPs无法耦合。</p><p><img src="https://c2.im5i.com/2023/01/06/YSFGt.png" alt="MIM波导"></p><h4 id="表面等离子激元的数值计算方法"><a href="#表面等离子激元的数值计算方法" class="headerlink" title="表面等离子激元的数值计算方法"></a>表面等离子激元的数值计算方法</h4><h5 id="1、有限时域差分法（FDTD）"><a href="#1、有限时域差分法（FDTD）" class="headerlink" title="1、有限时域差分法（FDTD）"></a>1、有限时域差分法（FDTD）</h5><h5 id="2、有限元分析法（FEM）"><a href="#2、有限元分析法（FEM）" class="headerlink" title="2、有限元分析法（FEM）"></a>2、有限元分析法（FEM）</h5><p>FEM在分析复杂结构上的性能要高于FDTD。</p><h4 id="COMSOL建模步骤"><a href="#COMSOL建模步骤" class="headerlink" title="COMSOL建模步骤"></a>COMSOL建模步骤</h4><blockquote><p>1、 选择构建模型、物理场和研究类型</p><p>2、 构建几何模型</p><p>3、 选择材料与设置电磁波频域模块</p><p>4、 网格剖分</p><p>5、 仿真计算</p><p>6、 结果处理</p></blockquote><h5 id="传感性能的评价参数"><a href="#传感性能的评价参数" class="headerlink" title="传感性能的评价参数"></a>传感性能的评价参数</h5><h5 id="1、灵敏度S"><a href="#1、灵敏度S" class="headerlink" title="1、灵敏度S"></a>1、灵敏度S</h5><h5 id="2、半高宽FWHM"><a href="#2、半高宽FWHM" class="headerlink" title="2、半高宽FWHM"></a>2、半高宽FWHM</h5><p>​Fano共振在透射谱上具有尖锐的特征，且<u>曲线越尖锐，其性能越优异</u>。FWHM，在共振峰半高处的谱线宽度，来定义谱线的尖锐程度。</p><h5 id="3、品质因数（FOM）"><a href="#3、品质因数（FOM）" class="headerlink" title="3、品质因数（FOM）"></a>3、品质因数（FOM）</h5><blockquote><p><em><strong>FOM&#x3D;S&#x2F;FWHM</strong></em></p></blockquote><p>​FOM值越高，可说明灵敏度越高或者半高宽越窄。</p><h4 id="双短棒波导耦合缺口圆环腔结构"><a href="#双短棒波导耦合缺口圆环腔结构" class="headerlink" title="双短棒波导耦合缺口圆环腔结构"></a>双短棒波导耦合缺口圆环腔结构</h4><p><img src="https://c2.im5i.com/2023/01/06/YSqEQ.png" alt="双短棒波导耦合"></p><p>​传感器由具有两个对称三角形短棒的MIM波导耦合带缺口的圆环谐振腔（CSRRC）组成。研究表明，在该结构的透射谱上出现了Fano共振，此现象是由<u>双短棒波导产生的连续宽带模式与CSRRC产生的离散窄带模式之间的相互作用引起的</u>。</p><p>​带双三角短棒的MIM波导结构的透射光谱是一条微倾斜的直线，其上的每一点的透射率都很高，可认为是产生Fano共振的<u>连续宽带模式</u>。</p><p>​CSRRC结构的透射谱有一个对称的波谷，这是典型的<u>Lorentz共振</u>，可认为是产生Fano共振的<u>离散窄带模式</u>。</p><p><img src="https://c2.im5i.com/2023/01/06/YSvI3.png" alt="透射谱"></p><h4 id="八种相似结构的透射谱图"><a href="#八种相似结构的透射谱图" class="headerlink" title="八种相似结构的透射谱图"></a>八种相似结构的透射谱图</h4><p><img src="https://c2.im5i.com/2023/01/06/YNMlj.png" alt="透射谱"></p><h5 id="完整环、45°、315°"><a href="#完整环、45°、315°" class="headerlink" title="完整环、45°、315°"></a>完整环、45°、315°</h5><p>​它们的透射谱上存在一个Lorentz特征的波谷，即在波谷处有<u>极低的透射率和较宽的FWHM</u>。</p><h5 id="90°、270°"><a href="#90°、270°" class="headerlink" title="90°、270°"></a>90°、270°</h5><p>​透射谱的FMHM相对狭窄，但是其波谷处的透射率很高，这会<u>增加探测信号的难度</u>。</p><h5 id="135°、225°"><a href="#135°、225°" class="headerlink" title="135°、225°"></a>135°、225°</h5><p>​激发了Fano共振，在波谷处有<u>极低的透射率和较窄的FWHM</u>。极低的透射率意味着较高的信噪比，较窄的FWHM意味着较高的FOM和优异的传感分辨率。</p><h5 id="180°"><a href="#180°" class="headerlink" title="180°"></a>180°</h5><p>​其透射谱上有两个波谷，距离很近，影响对方的探测结果。</p><p>​在圆环谐振腔上<u>适当的做缺陷</u>可以激发Fano共振，进而使得传感系统具有更加的传感性质。可以发现，45°和315°、90°和270°、135°和225°的投射谱分别相同，因为这些结构关于中心线对称所以有相似的传感性质。</p><p><img src="https://c2.im5i.com/2023/01/06/YNkaL.png" alt="磁场分布"></p><h4 id="影响Fano共振的因素"><a href="#影响Fano共振的因素" class="headerlink" title="影响Fano共振的因素"></a>影响Fano共振的因素</h4><h5 id="折射率"><a href="#折射率" class="headerlink" title="折射率"></a>折射率</h5><p><img src="https://c2.im5i.com/2023/01/06/YSSlO.png" alt="折射率"></p><p>​透射谱随着<u>折射率升高而红移</u>。</p><h5 id="CSRRC外径R"><a href="#CSRRC外径R" class="headerlink" title="CSRRC外径R"></a>CSRRC外径R</h5><p><img src="https://c2.im5i.com/2023/01/06/YSN1y.png" alt="外径R"></p><p>​随着外径R增大，Fano共振的位置明显红移，波谷处的透射率变高。这说明了<u>Fano共振的波谷波长取决于R，依赖于CSRRC的几何尺寸，而CSRRC是产生Fano共振的离散窄带模式</u>。</p><h5 id="两三角短棒之间的距离H"><a href="#两三角短棒之间的距离H" class="headerlink" title="两三角短棒之间的距离H"></a>两三角短棒之间的距离H</h5><p><img src="https://c2.im5i.com/2023/01/06/YSQHq.png" alt="距离"></p><p>​无论H如何变化，Fano共振的位置始终不变。当H增大时，波谷处的透射率降低了，FWHM变宽了。<u>连续宽带模式影响Fano共振的曲线形状，而不是影响其位置。</u></p><h5 id="CSRRC的缺口宽度l、三角棒高度h、不同耦合距离g"><a href="#CSRRC的缺口宽度l、三角棒高度h、不同耦合距离g" class="headerlink" title="CSRRC的缺口宽度l、三角棒高度h、不同耦合距离g"></a>CSRRC的缺口宽度l、三角棒高度h、不同耦合距离g</h5><p><img src="https://c2.im5i.com/2023/01/06/YSCqs.png" alt="CSRRC"></p><p>​随着l增加，透射谱发生了蓝移，Fano共振的形状不变。当h增大，Fano共振的位置不变，但Fano共振的形状由近似对称变为完全不对称。当g变大，Fano共振蓝移，FWHM变窄，波谷透射率变高。</p><p><u>可以发现，CSRRC上的尺寸参数影响Fano共振的位置，而双短棒波导上的几何参数影响Fano共振的形状。</u></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="论文" scheme="https://sueipl.github.io/tags/%E8%AE%BA%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>最近总结</title>
