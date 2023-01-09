@@ -6,7 +6,7 @@
   <link href="https://sueipl.github.io/atom.xml" rel="self"/>
   
   <link href="https://sueipl.github.io/"/>
-  <updated>2023-01-06T08:48:43.713Z</updated>
+  <updated>2023-01-09T08:39:11.744Z</updated>
   <id>https://sueipl.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于MIM波导耦合谐振器Fano共振研究论文</title>
+    <link href="https://sueipl.github.io/2023/01/09/ThingsAboutMIM-Fano/"/>
+    <id>https://sueipl.github.io/2023/01/09/ThingsAboutMIM-Fano/</id>
+    <published>2023-01-09T07:25:51.000Z</published>
+    <updated>2023-01-09T08:39:11.744Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>​    最近看了几篇关于<strong>MIM波导耦合谐振器Fano共振</strong>的论文，发现这些论文的研究方法类似，具有大致相同的研究过程，在这里做一下总结。</p><h4 id="课题研究背景及意义"><a href="#课题研究背景及意义" class="headerlink" title="课题研究背景及意义"></a>课题研究背景及意义</h4><p>这一部分主要介绍这一课题的背景和意义，也就是为什么研究这个MIM波导的Fano共振，以及研究这个东西有什么意义。</p><h4 id="表面等离激元基本理论"><a href="#表面等离激元基本理论" class="headerlink" title="表面等离激元基本理论"></a>表面等离激元基本理论</h4><p>这一部分就开始介绍整个研究的过程。从<strong>表面等离子激元</strong>概念入手，进而通过<strong>麦克斯韦方程组</strong>和<strong>亥姆霍兹方程</strong>推导<strong>金属和电解质界面处的SPPs的色散关系</strong>，得到结论：</p><blockquote><p>频率相同时，表面等离子激元波矢大于真空中入射光的波矢，因此表面等离子激元波不能再金属-介质表面上直接激发。</p></blockquote><p>为了解决光波波矢与表面等离子激元的波矢匹配问题，人们想出了很多激发SPPs的方法，接着就介绍几种激发方法，主要有以下几种：</p><p>1、带电粒子激发；2、棱镜耦合激发；3、光栅耦合激发；4、进场激发。</p><p>接着介绍金属色散模型，得到金属介电常数的表达式。</p><p>接着推导<strong>MIM波导体系中表面等离子极化激元的色散关系</strong>，得到<strong>表面等离子激元只能以TM模形式存在</strong>，确定介质层的厚度为<strong>50nm</strong>。</p><p>最后介绍以下目前的研究现状。</p><h4 id="有限元仿真方法及耦合模理论"><a href="#有限元仿真方法及耦合模理论" class="headerlink" title="有限元仿真方法及耦合模理论"></a>有限元仿真方法及耦合模理论</h4><p>这一部分先介绍有限元仿真方法（FEM），之后介绍基于FEM的仿真软件-COMSOL了。接着以典型的MIM波导耦合圆环形谐振腔结构为例简要介绍COMSOL再MIM波导耦合谐振腔结构中的基本建模流程。然后介绍<strong>耦合模理论</strong>，介绍折射率传感特性的表征方法。</p><h4 id="Fano共振效应与传感特性研究"><a href="#Fano共振效应与传感特性研究" class="headerlink" title="Fano共振效应与传感特性研究"></a>Fano共振效应与传感特性研究</h4><p>从这一部分就开始提出自己的模型，介绍自己的模型的结构，利用COMSOL进行仿真，分析结果。之后分析结构参数对MIM波导耦合谐振器的传播特性的影响，也就是改变波导耦合器的几何参数，利用COMSOL进行扫描，分析改变这些数值对Fano共振的影响。</p><hr><p>上面是这个课题的整体的大致过程，所有的相关的论文都大致是这个过程。下面是我的课题的主要内容，可以看出，研究过程也是类似的。</p><p><img src="https://c2.im5i.com/2023/01/09/YGYAq.png"></p><p>我准备把整个研究分成以下几个部分：</p><p>1、学习等离子体激元的性质、推导整个SPPs的过程，包括：SPPs的基本概念、色散方程、激发方式、金属色散模型。</p><p>2、 学习有限元法的概念和原理，学习COMSOL的仿真方法，利用MIM波导矩形腔耦合圆盘腔的Fano共振介绍COMSOL的仿真过程。</p><p><img src="https://c2.im5i.com/2023/01/09/YGoCm.png"></p><p>3、 提出单挡板MIM波导耦合圆盘腔的Fano共振结构，分析Fano共振特性。改变结构参数，对其传感特性进行分析。</p><p>4、 引入级联结构单挡板MIM波导耦合圆盘的Fano共振结构，通过对结构参数的优化，实现灵敏度和优质因子的大幅提高。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="论文" scheme="https://sueipl.github.io/tags/%E8%AE%BA%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>MIM波导耦合缺陷谐振腔系统的传感特性研究</title>
